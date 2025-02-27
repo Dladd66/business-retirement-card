@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel's Digital Card</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 16px;
+    }
+    .card-container {
+      width: 100%;
+      max-width: 480px;
+      margin: auto;
+    }
+    .service-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .service-icon {
+      margin-right: 12px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div class="card-container">
+    <div class="bg-white rounded-lg shadow-xl overflow-hidden">
+      <!-- Header Section -->
+      <div class="bg-blue-600 p-6 text-white text-center">
+        <h1 class="text-2xl font-bold">Contact Info</h1>
+      </div>
+      
+      <!-- Main Content -->
+      <div class="p-6 space-y-4">
+        <!-- Contact Actions -->
+        <div class="space-y-3">
+          <a href="tel:+13212826801" class="block w-full bg-blue-600 text-white text-center py-3 px-4 rounded-lg hover:bg-blue-700 transition duration-200">
+            📞 Call Me
+          </a>
+          <a href="sms:+13212826801" class="block w-full bg-green-600 text-white text-center py-3 px-4 rounded-lg hover:bg-green-700 transition duration-200">
+            💬 Text Me
+          </a>
+          <a href="mailto:daniellladd@byob.businessretirementvault.com" class="block w-full bg-purple-600 text-white text-center py-3 px-4 rounded-lg hover:bg-purple-700 transition duration-200">
+            ✉️ Email Me
+          </a>
+        </div>
+        <!-- Save Contact Button -->
+        <a href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3ADaniel%0AN%3A%3BDaniel%3B%3B%3B%0ATITLE%3ABusiness%20Retirement%20Strategist%0ATEL%3BWORK%3BVOICE%3A3212826801%0AEMAIL%3BWORK%3BINTERNET%3Adaniellladd%40byob.businessretirementvault.com%0AEND%3AVCARD" 
+           download="Daniel_Contact.vcf" 
+           class="block w-full bg-gray-800 text-white text-center py-3 px-4 rounded-lg hover:bg-gray-900 transition duration-200 mt-4">
+          📲 Save to Contacts
+        </a>
+        
+        <!-- Services -->
+        <div class="mt-8 bg-gray-50 p-4 rounded-lg border border-gray-200">
+          <h2 class="text-xl font-bold text-blue-600 mb-4">Expert Financial Solutions</h2>
+          <div class="space-y-3">
+            <div class="service-item">
+              <span class="service-icon text-xl">🏛️</span>
+              <span class="text-gray-700 font-medium">Business Retirement Vault Strategy — Secure your financial future with our proprietary approach to business exit planning</span>
+            </div>
+            <div class="service-item">
+              <span class="service-icon text-xl">💰</span>
+              <span class="text-gray-700 font-medium">Self Banking Strategies — Create your personal banking system and achieve financial independence</span>
+            </div>
+            <div class="service-item">
+              <span class="service-icon text-xl">📈</span>
+              <span class="text-gray-700 font-medium">Asset Optimization — Maximize returns while minimizing risk across your investment portfolio</span>
+            </div>
+            <div class="service-item">
+              <span class="service-icon text-xl">🛡️</span>
+              <span class="text-gray-700 font-medium">Tax-Free Wealth Accumulation — Legally build wealth without the burden of excessive taxation</span>
+            </div>
+            <div class="service-item">
+              <span class="service-icon text-xl">📊</span>
+              <span class="text-gray-700 font-medium">Max Funded IUL Planning — Leverage powerful insurance strategies for tax-free growth and protection</span>
+            </div>
+            <div class="service-item">
+              <span class="service-icon text-xl">👪</span>
+              <span class="text-gray-700 font-medium">Generational Wealth Transfer — Ensure your legacy continues with strategic estate planning</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Schedule Section -->
+        <div class="mt-6">
+          <a href="https://link.agentlaunch.io/widget/booking/ubrSBw2v8QgWbwDh2R9w" target="_blank" class="block w-full bg-blue-600 text-white text-center py-3 px-4 rounded-lg hover:bg-blue-700 transition duration-200">
+            📅 Schedule a Consultation
+          </a>
+        </div>
+
+        <!-- Ebook Section -->
+        <div class="mt-6">
+          <a href="https://businessretirementvault.com/brvebook" target="_blank" class="block w-full bg-yellow-600 text-white text-center py-3 px-4 rounded-lg hover:bg-yellow-700 transition duration-200">
+            📚 Buy My eBook
+          </a>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="mt-6 space-y-3">
+          <a href="https://www.linkedin.com/in/daniel-ladd-38881131/" target="_blank" class="block w-full bg-blue-500 text-white text-center py-3 px-4 rounded-lg hover:bg-blue-600 transition duration-200">
+            🔗 Connect on LinkedIn
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61552680124036" target="_blank" class="block w-full bg-blue-700 text-white text-center py-3 px-4 rounded-lg hover:bg-blue-800 transition duration-200">
+            👥 Follow on Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
